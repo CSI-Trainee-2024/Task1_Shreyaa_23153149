@@ -1,9 +1,10 @@
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 body{
-    background-color: rgb(249,164,77);
+    background-color: rgb(251 190 130);
 }
 .navbar{
     display: flex;
@@ -78,29 +79,64 @@ body{
       display: block;
     }
     .herosec{
-        height: 50vh;
+        height: 60vh;
+        background-attachment: scroll;
     }
     .herotxt{
         font-size: 2rem;
     }
+    .herotxt p{
+        font-size: 1rem;
+    }
+    #Desc{}
   }
 .herosec{
     position:relative;
     height: 70vh;
-    background-image: url(Assets/Images/Hero\ Image.jpg);
-    background-size: cover;
-    background-position: center;
+    background-image: url(Assets/Images//andrew-coelho-m6tAqZvy4RM-unsplash.jpg);
+    background-size:cover;
+    background-position:center;
     background-attachment: fixed;
+    width: 100%;
+    opacity: 89%;
     display: flex;
+    flex-direction: column;
     justify-content:flex-start;
-    /* align-items:center; */
+    align-items:flex-start;
     color: black;
-    text-align: center;
+    text-align:left;
     padding: 0 20px;
+    overflow: hidden;
 }
-.herotxt{
-    font-size: 1.8rem;
-    margin:35px;
+#herotxt{
+    font-size: 2rem;
+    margin:28px;
     text-transform: uppercase;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    opacity: 100%;
+    max-width: 80%;
+}
+#Desc{
+    margin: 0 36px;
+    height:30px;
+    width: 619px;
+    box-sizing: border-box;
+    text-align:left;
+    max-width: 80%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+}
+#searchbar{
+    margin: 50px 32px;
+    display: flex;
+    justify-content:center;
+    position:relative;
+    align-items:center;
+}
+#searchbar input{
+    padding: 10px;
+    border: 1.5px solid black;
+    border-radius: 20px;
+    width: 300px;
+    padding-right: 40px;
 }
