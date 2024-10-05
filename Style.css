@@ -88,7 +88,16 @@ body{
     .herotxt p{
         font-size: 1rem;
     }
-    #Desc{}
+    #searchbar input {
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 10px;
+      }
+    
+      .searchbar {
+        flex-direction: column;
+        position: relative;
+      }
   }
 .herosec{
     position:relative;
@@ -127,16 +136,25 @@ body{
     font-size: 15px;
 }
 #searchbar{
-    margin: 50px 32px;
+    margin: 34px 0;
     display: flex;
     justify-content:center;
     position:relative;
     align-items:center;
+    max-width: 80%;
 }
 #searchbar input{
-    padding: 10px;
+    padding: 11px;
     border: 1.5px solid black;
     border-radius: 20px;
-    width: 300px;
+    width: 500px;
     padding-right: 40px;
+}
+#searchbar button{
+    position: absolute;
+    right: 10px;
+    top: 45%;
+    background-color:white;
+    border: 1px solid black;
+    border-radius: 15px;
 }
