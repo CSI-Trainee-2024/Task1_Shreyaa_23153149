@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(249,164,77);
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px;
+}
+.logo a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 1.5rem;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.nav{
+    display: flex;
+    list-style: none;
+}
+.nav li{
+    margin-left: 20px;
+}
+.nav a{
+    text-decoration: none;
+    color: black;
+    padding: 8px 15px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+}
+.nav a:hover{
+    color: beige;
+}
+#btn{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    font-size: 13px;
+    font-weight: bold;
+    background-color: beige;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    padding: 8px 20px;
+}
+#btn:hover{
+    color: black;
+    border: 1px solid black;
+    background-color:blanchedalmond;
+    transition:border 3s ease;
+}
+.navicon{
+    display: none;
+    font-size: 2rem;
+    color: beige;
+    cursor: pointer;
+}
+@media (max-width: 816px) {
+    .nav{
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 60px;
+      right: 20px;
+      padding: 10px;
+      width: 200px;
+    }
+    .nav li {
+      margin: 10px 0;
+    }
+    .btn {
+      display: none; 
+    }
+    .navicon{
+      display: block;
+    }
+    .navbar.active .nav{
+      display: flex;
+    }
+  }
