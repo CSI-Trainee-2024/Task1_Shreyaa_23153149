@@ -57,6 +57,7 @@ body{
     color: beige;
     cursor: pointer;
 }
+/* Media query for navbar */
 @media (max-width: 816px) {
     .nav{
       display: none;
@@ -76,7 +77,30 @@ body{
     .navicon{
       display: block;
     }
-    .navbar.active .nav{
-      display: flex;
+    .herosec{
+        height: 50vh;
+    }
+    .herotxt{
+        font-size: 2rem;
     }
   }
+.herosec{
+    position:relative;
+    height: 70vh;
+    background-image: url(Assets/Images/Hero\ Image.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content:flex-start;
+    /* align-items:center; */
+    color: black;
+    text-align: center;
+    padding: 0 20px;
+}
+.herotxt{
+    font-size: 1.8rem;
+    margin:35px;
+    text-transform: uppercase;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
