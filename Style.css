@@ -209,6 +209,7 @@ body{
 .destinations{
     padding: 40px;
     /* background-color: #ffebcd; */
+    text-align: center;
     
 }
 .destinations h2{
@@ -244,6 +245,7 @@ body{
 }
 .categories{
     padding: 40px;
+    text-align: center;
 }
 .categories h2{
     margin: 12px;
@@ -278,6 +280,7 @@ body{
 }
 .packages{
     padding: 40px;
+    text-align: center;
 }
 .packages h2{
     margin: 12px;
