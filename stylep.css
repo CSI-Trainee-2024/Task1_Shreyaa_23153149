@@ -237,3 +237,49 @@ footer.last{
 .social-media a:hover{
     color:#00c6d8;
 }
+@media (max-width: 816px) {
+    .nav{
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 60px;
+      right: 20px;
+      padding: 10px;
+      width: 200px;
+      background-color: whitesmoke;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    .nav li {
+      margin: 10px 0;
+    }
+    #btn {
+      display: none; 
+    }
+    .navicon{
+      display: block;
+    }
+    .herosec{
+        height: 60vh;
+        background-attachment: scroll;
+    }
+    .herotxt{
+        font-size: 2rem;
+    }
+    .herotxt p{
+        font-size: 1rem;
+    }
+    #searchbar input {
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 10px;
+      }
+    #searchbar button{
+        right: 10px;
+        top: 36%;
+      }
+    .footer,.social-media{
+        flex-direction: column;
+        gap: 15px;
+    }
+  }
