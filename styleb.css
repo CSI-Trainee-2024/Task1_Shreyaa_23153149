@@ -1,0 +1,185 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: whitesmoke;
+    font-family: 'Cambria', Cochin, Georgia, 'Times New Roman', serif;
+    line-height: 1;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+    z-index: 1000;
+}
+.logo a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.nav{
+    display: flex;
+    list-style: none;
+}
+.nav li{
+    margin-left: 20px;
+}
+.nav a{
+    text-decoration: none;
+    color: black;
+    padding: 8px 15px;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+.nav a:hover{
+    color:rgb(251 190 130);
+}
+#btn{
+    font-size: 13px;
+    font-weight: bold;
+    background-color: rgb(235, 158, 108);
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    padding: 8px 20px;
+    transition: background-color 0.3s ease, border 0.3s ease;
+}
+#btn:hover{
+    color: black;
+    border: 1px solid black;
+    background-color:blanchedalmond;
+}
+.navicon{
+    display: none;
+    font-size: 2rem;
+    color:rgb(251 190 130);
+    cursor: pointer;
+}
+.herosec{
+    position:relative;
+    height: 90vh;
+    background-image: url(Assets/Images/pexels-azamat-hatypov-97167739-28667227.jpg);
+    background-size:cover;
+    background-position:center;
+    background-attachment: fixed;
+    width: 100%;
+    opacity: 89%;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items:flex-start;
+    text-align:left;
+    padding: 0 20px;
+    overflow: hidden;
+}
+#herotxt{
+    color: black;
+    font-size: 2rem;
+    margin:28px;
+    text-transform: uppercase;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    opacity: 100%;
+    max-width: 80%;
+}
+#Desc{
+    margin: 0 36px;
+    height:30px;
+    width: 619px;
+    box-sizing: border-box;
+    text-align:left;
+    max-width: 80%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+    font-weight:bold;
+    color:darkslategrey;
+}
+.blogcat{
+    text-align: center;
+    padding: 40px;
+}
+.blogcat h2{
+    font-size: 2.5rem;
+    color: #524438;
+    margin-bottom: 20px;
+}
+.bloggrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+  }
+.blogcard{
+    background-color:aliceblue;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    align-content: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    height: 200px;
+}
+  
+.blogcard:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+}
+.blogcard h3 {
+    font-size: 1.7rem;
+    color: #524438c2;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.blogcard p{
+    font-size: 1rem;
+    color: black;
+}
+footer.last{
+    background-color:#402e32;
+    color:whitesmoke;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+.footer{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+.footer a{
+    color:whitesmoke;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+.footer a:hover{
+    color:#00c6d8; 
+}
+.social-media{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.social-media a {
+    color:whitesmoke;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+.social-media a i{
+    margin-right: 8px;
+}
+.social-media a:hover{
+    color:#00c6d8;
+}
