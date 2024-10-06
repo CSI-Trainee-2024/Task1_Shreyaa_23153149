@@ -98,6 +98,7 @@ body{
     max-width: 80%;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 15px;
+    font-weight:bold;
 }
 #searchbar{
     margin: 34px 0;
@@ -127,4 +128,165 @@ body{
 }
 #searchbar button:hover{
     background-color: rgb(251 190 130);
+}
+.destinations{
+    padding: 50px 20px;
+    text-align: center;
+}
+.destinations h2{
+
+    margin: 12px;
+    font-size: 2.8rem;
+    color:#524438;
+}
+.destgrid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    justify-items: center;
+}
+.card{
+    margin-top: 20px;
+    background-color: aliceblue;
+    border: 1px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+.card img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.card h3{
+    font-size: 1.5rem;
+    margin: 15px 0;
+}
+.card p{
+    font-size: 1rem;
+    margin: 10px 15px;
+    line-height: 1.5;
+}
+.card a{
+    display: inline-block;
+    margin: 20px 0;
+    padding: 10px 20px;
+    background-color: #00c6d8;
+    color:white;
+    text-decoration: none;
+    border-radius: 20px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+.card a:hover{
+    color: coral;
+}
+.card:hover{
+    transform: translateY(-10px);
+}
+.categories{
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.categories h2{
+    margin: 12px;
+    font-size: 2.8rem;
+    color:#524438;
+}
+.filtersec{
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+.filtersec label{
+    font-size:1.2rem;
+    margin-right: 10px;
+}
+.filtersec select{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-size: 1rem;
+}
+.catsec{
+    margin-bottom: 50px;
+}
+.catsec h3{
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #524438b7;
+}
+.catgrid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    justify-items: center;
+}
+.catcard{
+    background-color: aliceblue;
+    border: 1px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    width: 250px;
+    text-align: center;
+    cursor: pointer;
+}
+.catcard img{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+.catcard h4{
+    font-size: 1.5rem;
+    margin: 15px 0;
+    color: #5244386c;
+}
+.catcard:hover {
+    transform: translateY(-10px);
+}
+footer.last{
+    background-color:#402e32;
+    color:whitesmoke;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+.footer{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+.footer a{
+    color:whitesmoke;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+.footer a:hover{
+    color:#00c6d8; 
+}
+.social-media{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.social-media a {
+    color:whitesmoke;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+.social-media a i{
+    margin-right: 8px;
+}
+.social-media a:hover{
+    color:#00c6d8;
 }

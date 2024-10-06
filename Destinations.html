@@ -6,6 +6,7 @@
     <title>WanderWise-Destinations</title>
     <link rel="stylesheet" href="Styled.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <body>
     <header>
@@ -15,10 +16,10 @@
             </div>
             <div class="container">
                 <ul class="nav">
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Destinations</a></li>
-                    <li><a href="">Packages</a></li>
-                    <li><a href="">Blogs</a></li>
+                    <li><a href="Index.html">Home</a></li>
+                    <li><a href="Destinations.html">Destinations</a></li>
+                    <li><a href="packages.html">Packages</a></li>
+                    <li><a href="blog.html">Blogs</a></li>
                     <li><a href="">About Us</a></li>
                     <li><a id="btn" href="">Login</a></li>
                 </ul>
@@ -40,5 +41,99 @@
             </div>
         </span>
     </section>
-</body>
-</html>
+    <section class="destinations">
+        <h2>Explore Popular Destinations</h2>
+        <div class="destgrid">
+            <div class="card">
+                <img src="Assets/Images/pexels-thorsten-technoman-109353-338515.jpg" alt="Paris">
+                <h3>Paris</h3>
+                <p>The City of Lights, known for its art, culture, and history.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div class="card">
+                <img src="Assets/Images/pexels-freestockpro-2166553.jpg" alt="Bali">
+                <h3>Bali</h3>
+                <p>Tropical paradise with beautiful beaches and serene temples.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div class="card">
+                <img src="Assets/Images/pexels-vladalex94-1486222.jpg" alt="New York City">
+                <h3>New York City</h3>
+                <p>The city that never sleeps, full of iconic landmarks and experiences.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div class="card">
+                <img src="Assets/Images/pexels-asadphoto-1320686.jpg" alt="Maldives">
+                <h3>Maldives</h3>
+                <p>Luxury overwater bungalows and crystal-clear waters await.</p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+    </section>
+    <section class="categories">
+        <h2>Search by Categories</h2>
+        <div class="filtersec">
+            <label for="catfilter">Filter by:</label>
+            <select id="catfilter">
+                <option value="All">All</option>
+                <option value="Budget">By Budget</option>
+                <option value="Weather"> By Weather</option>
+                <option value="Season"> By Season</option>
+                <option value="Season">By Popularity</option>
+            </select>
+        </div>
+        <div class="catsec">
+            <h3>By Region</h3>
+            <div class="catgrid">
+                <div class="catcard">
+                    <img src="Assets/Images/pexels-pixabay-70080.jpg" alt="Africa">
+                    <h4>Africa</h4>
+                </div>
+                <div class="catcard">
+                    <img src="Assets/Images/pexels-pixabay-248082.jpg" alt="Asia">
+                    <h4>Asia</h4>
+                </div>
+                <div class="catcard">
+                    <img src="Assets/Images/pexels-hebaysal-773471.jpg" alt="Europe">
+                    <h4>Europe</h4>
+                </div>
+                <div class="catcard">
+                    <img src="Assets/Images/pexels-pixabay-290386.jpg" alt="North America">
+                    <h4>North America</h4>
+                </div>
+            </div>
+        </div>
+        <div class="catsec">
+            <h3>By Experience</h3>
+            <div class="catgrid">
+                <div class="catcard">
+                    <img src="Assets/Images/pexels-ahmad-syahrir-107128-758744.jpg" alt="Adventure">
+                    <h4>Adventure</h4>
+                </div>
+                <div class="catcard">
+                    <img src="Assets/Images/pexels-fabianwiktor-994605.jpg" alt="Beach Holidays">
+                    <h4>Beach Holidays</h4>
+                </div>
+                <div class="catcard">
+                    <img src="Assets/Images/pexels-enrique-28783430.jpg" alt="Cultural Trips">
+                    <h4>Cultural Trips</h4>
+                </div>
+                <div class="catcard">
+                    <img src="Assets/Images/pexels-urtimud-89-76108288-18261821.jpg" alt="Romantic Getaway">
+                    <h4>Romantic Getaways</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="last">
+        <div class="footer">
+            <a href="#about-us">About Us</a>
+            <a href="#terms">Terms of Service</a>
+            <a href="#privacy">Privacy Policy</a>
+        </div>
+        <div class="social-media">
+            <a href="#facebook"><i class="fab fa-facebook"></i>Facebook</a>
+            <a href="#instagram"><i class="fab fa-instagram"></i>Instagram</a>
+            <a href="#twitter"><i class="fab fa-twitter"></i>Twitter</a>
+        </div>
+    </footer>
