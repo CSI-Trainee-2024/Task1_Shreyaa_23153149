@@ -206,6 +206,9 @@ body{
     background-color:rgb(251 190 130);
     cursor: pointer;
 }
+.options ul li:hover{
+    color: whitesmoke;
+}
 .destinations{
     padding: 40px;
     /* background-color: #ffebcd; */
@@ -319,6 +322,7 @@ body{
     height: 390px;
     width: 500px;
     box-sizing: border-box;
+    cursor: pointer;
 }
 .pack1:hover{
     transform: translateY(-10px);
